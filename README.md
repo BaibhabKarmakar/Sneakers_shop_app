@@ -1,16 +1,50 @@
-# e_commerce_app
+# 🏬 Sneaker Shop App
 
-A new Flutter project.
+> **"Laces Tied, Code Applied – Sneaker Shop App Dropped!"**
 
-## Getting Started
+A simple, clean, and beginner-friendly **Flutter E-commerce App** designed to showcase sneaker models with smooth navigation, cart management, and a modern UI for both **Android** and **iOS**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
+- 👟 Sneaker Listings with name & price
+- 🛒 Cart Management using **Provider**
+- 🧩 Clean code with reusable widgets
+- 🧭 Drawer Navigation with `OpenDrawer()`
+- 📄 Multiple Pages with seamless transitions
+- ⚡ Dynamic Cart Model to fetch & update data
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+| Technology     | Description          |
+| -------------- | -------------------- |
+| **Flutter**   | Frontend framework   |
+| **Dart**      | Programming language |
+| **Provider**  | State management     |
+| **Android Studio** | Development IDE |
+| **Figma**     | UI design inspiration|
+
+---
+
+
+## ⚡ Installation
+
+```bash
+git clone https://github.com/your-username/sneaker_shop_app.git
+cd sneaker_shop_app
+flutter pub get
+flutter run
+```
+
+## 🏹 Motivation
+
+After grinding 6+ hours as a beginner, I built this project to enhance my Flutter skills and understand state management with Provider.
+
+## 🙌 Support
+
+Drop a ⭐ if you like this project!
+Open to feedback, suggestions, and collaborations.
+
+📌 Connect with me:
+	•	LinkedIn : https://www.linkedin.com/in/karmakarbaibhab/

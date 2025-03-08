@@ -20,8 +20,10 @@ class _ShopPageState extends State<ShopPage> {
     showDialog(
       context: context,
       builder: (context) {
-        Future.delayed(Duration(seconds: 2), () {
-          Navigator.of(context).pop(true); // Close the dialog after 3 seconds
+        Future.delayed(Duration(seconds: 1), () {
+          if(!mounted) return;
+          // ignore: use_build_context_synchronously
+          Navigator.of(context).pop(true); 
         });
         return AlertDialog(
           title: Text("Successfully Added!"),
